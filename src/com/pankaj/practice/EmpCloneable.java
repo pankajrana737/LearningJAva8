@@ -167,8 +167,12 @@ public class EmpCloneable implements Cloneable {
 			EmpCloneable emp2= emp1.clone();
 			System.out.println("emp1 == emp2 ");
 			System.out.println(emp1 == emp2);
+			
 			System.out.println(emp2.getId());
 			System.out.println(emp2.getName());
+			
+			System.out.println("emp1.hashCode() --->"+emp1.hashCode() );
+			System.out.println("emp2.hashCode() --->"+emp2.hashCode() );
 			
 		} catch (CloneNotSupportedException e) {
 			// TODO Auto-generated catch block

@@ -180,6 +180,14 @@ public class EmpCloneable implements Cloneable {
 		}
 		
 	}
+
+
+
+
+	@Override
+	public String toString() {
+		return "Employee Details [id=" + id + ", name=" + name + "]";
+	}
 	
 	
 	

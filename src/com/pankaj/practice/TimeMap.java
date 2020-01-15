@@ -25,13 +25,14 @@ public class TimeMap {
 
 	    }
   
-  //  to get value
+  //  to get value based on timestamp using floorkey function of treemap
   
   
   public int get(String key, int timestamp) {
        if (!M.containsKey(key)) return 0;
 
        TreeMap<Integer, Integer> tree = M.get(key);
+       // main working by below line
        Integer t = tree.floorKey(timestamp);
        return t != 0 ? tree.get(t) : 0;
    }

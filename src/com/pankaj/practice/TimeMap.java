@@ -3,7 +3,12 @@ package com.pankaj.practice;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
-
+/**
+ * 
+ * @author panrana1
+ * Question Stock vendor store based on name price  and time stamp
+ * how u will get stock price based on time stamp
+ */
 public class TimeMap {
  private Map<String,TreeMap<Integer,Integer>>M;
  public TimeMap() {
@@ -48,7 +53,7 @@ public static void main(String[] args) {
 	  
 	  System.out.println("price at 1800 sec --> "+ Tmap.get("google",1800 )); 
 	  
-	  System.out.println("price at 2000 sec  -->"+ Tmap.get("google",2000 )); 
+	  System.out.println("price at 2000 sec "+ Tmap.get("google",2000 )); 
 	  
 	  System.out.println("price at 2500 sec"+ Tmap.get("google",2500 )); 
 	  

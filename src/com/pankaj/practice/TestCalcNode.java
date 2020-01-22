@@ -12,8 +12,7 @@ public static void main(String[] args) {
 
 	Scanner sc= new Scanner(System.in);
 	System.out.println("enter your input");
-	String inputString= //"879432156";
-	sc.next();
+	String inputString= sc.next();
 	System.out.println("enter your test integer");
 
 	String s=sc.next();
